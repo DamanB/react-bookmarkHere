@@ -33,3 +33,7 @@ yarn-error.log*
 
 # firebase
 config/firebase
+.firebaserc
+firebase.json
+firestore.indexes.json
+firestore.rules
