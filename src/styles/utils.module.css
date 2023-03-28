@@ -1,0 +1,8 @@
+.ftLight {
+    color: var(--colorLight)
+}
+
+.withFooter {
+    display: flex;
+    flex-direction: column;
+}
