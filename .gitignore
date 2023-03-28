@@ -37,3 +37,6 @@ config/firebase
 firebase.json
 firestore.indexes.json
 firestore.rules
+
+#vscode
+.vscode
