@@ -1,0 +1,12 @@
+html {
+    --colorPrimary: rgb(9, 26, 73);
+    --colorLight: white;
+    --colorDark: rgb(0, 0, 0);
+    --colorBlendA: rgb(153, 35, 163);
+    --colorBlendB: rgb(0, 102, 255);
+    --colorBlendC: orange;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px !important;
+    color: var(--colorDark) /* Default colors */
+}
