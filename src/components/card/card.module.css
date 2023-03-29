@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+
+    box-shadow: rgb(177, 177, 177) 0px 4px 7px 0px;
+    border-radius: 10px; 
+    overflow: hidden;
+
+    padding: 10px;
+}
