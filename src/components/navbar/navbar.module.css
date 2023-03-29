@@ -10,6 +10,12 @@
     overflow: hidden;
 }
 
+.spacer {
+    display: relative;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
 .contentContainer {
     display: flex;
     align-items: center;

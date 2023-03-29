@@ -7,15 +7,18 @@ import Logo from '@/components/logo';
 
 const Navbar = () => {
     return (
-        <div className={classNames([styles.container, utilStyles.withFooter])}>
-            <div className={classNames([styles.contentContainer, utilStyles.ftLight])}>
-                <div className={styles.logo}>
-                    <Logo isForNavbar />
+        <>
+            <div className={classNames([styles.container])}>
+                <div className={classNames([styles.contentContainer, utilStyles.ftLight])}>
+                    <div className={styles.logo}>
+                        <Logo isForNavbar />
+                    </div>
+                    <span className={classNames([styles.title, utilStyles.ftLight])}>Bookmark Here!</span>
                 </div>
-                <span className={classNames([styles.title, utilStyles.ftLight])}>Bookmark Here!</span>
+                <RainbowFooter />
             </div>
-            <RainbowFooter />
-        </div>
+            <div className={styles.spacer} />        
+        </>
     );
 };
 

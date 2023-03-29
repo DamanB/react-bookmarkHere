@@ -2,7 +2,6 @@
     color: var(--colorLight)
 }
 
-.withFooter {
-    display: flex;
-    flex-direction: column;
+.ftDark {
+    color: var(--colorDark)
 }
