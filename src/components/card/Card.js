@@ -7,12 +7,13 @@ import RainbowFooter from '@/components/rainbowFooter';
 
 const Card = ({ 
     children, 
+    hideFooter,
 }) => {
 
     return (
         <div className={classNames([styles.container])}> 
             {children}
-            <RainbowFooter />
+            {!hideFooter && <RainbowFooter />}
         </div>
     );
 };
