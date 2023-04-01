@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 3px;
-    margin: 1px 0;
+    margin: -4px;
 
     color: gray;
 }
@@ -15,7 +15,7 @@
 }
 
 .containerLogo > span {
-    font-size: 38px;
+    font-size: 28px;
 }
 
 .containerText {
@@ -28,10 +28,10 @@
 }
 
 .small {
-    font-size: 12px;
+    font-size: 8px;
 }
 
 .large {
     font-style: italic;
-    font-size: 16px;
+    font-size: 12px;
 }
