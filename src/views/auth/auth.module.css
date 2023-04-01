@@ -1,0 +1,50 @@
+.container {
+    margin: 18px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0 25px 0;
+}
+
+.item {
+    margin: 10px 0;
+    width: 70%;
+}
+
+.authButton {
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+.authButton > button {
+    width: 90px;
+    height: 30px;
+
+    background-color: var(--colorLight);
+    color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: rgb(177, 177, 177) 1px 1px 0px;
+}
+
+.authButton > button:hover {
+    box-shadow: rgb(177, 177, 177) 2px 2px 0px;
+}
+
+.spaciousItem {
+    margin: 12px 0;
+    width: 80%;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 20px;
+}

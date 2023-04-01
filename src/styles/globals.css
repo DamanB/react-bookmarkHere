@@ -6,7 +6,15 @@ html {
     --colorBlendB: rgb(0, 102, 255);
     --colorBlendC: orange;
 
+    --colorRed: rgb(246, 29, 29);
+
     font-family: "Montserrat", sans-serif;
     font-size: 14px !important;
-    color: var(--colorDark) /* Default colors */
+    color: var(--colorDark); /* Default colors */
+
+    --paddingApp: 15px; 
+}
+
+body {
+    margin: 0
 }
