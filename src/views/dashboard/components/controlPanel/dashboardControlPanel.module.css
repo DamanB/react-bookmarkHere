@@ -1,0 +1,13 @@
+.container {
+    position: fixed;
+    z-index: 6;
+    top: calc(var(--navbarHeight) + 10px);
+    left: 0px;
+    right: 0px;
+    margin: 0 calc(var(--paddingApp) + 1px);
+}
+
+.controlPanelSpacer {
+    display: relative;
+    margin-bottom: 30px;
+}

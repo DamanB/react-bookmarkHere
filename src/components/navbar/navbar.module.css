@@ -12,8 +12,8 @@
 
 .spacer {
     display: relative;
-    height: 65px;
-    margin-bottom: 5px;
+    height: var(--navbarHeight);
+    margin-bottom: var(--navbarBottomMargin);
 }
 
 .contentContainer {

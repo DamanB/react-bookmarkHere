@@ -6,4 +6,11 @@
     overflow: hidden;
 
     padding: 10px;
+
+    background-color: var(--colorLight)
+}
+
+.hideTopRadius {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }

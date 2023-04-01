@@ -1,25 +1,10 @@
-import Head from 'next/head'
+import Head from '@/components/head'
 import App from '@/views/app'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Bookmark Here!</title>
-        <meta name="description" content="All your bookmarks in one place!" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        {/* Font */}
-        <link
-          href="https://fonts.googleapis.com/css?family=Montserrat"
-          rel="stylesheet"
-        />
-        {/* Logo */}
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
-      </Head>
+      <Head title='Bookmark Here!'/>
       <App />
     </>
   )
