@@ -30,12 +30,15 @@ const DashboardControlPanel = () => {
                         </div>
                         <div className={styles.controlPanelItemContainer}>
                             <FilterIcon 
+                                classes={[styles.controlPanelItem]}
                                 Icon={BookmarkIcon} 
                             />
                             <FilterIcon 
+                                classes={[styles.controlPanelItem]}
                                 Icon={BookmarkIcon} 
                             />
                             <FilterIcon 
+                                classes={[styles.controlPanelItem]}
                                 Icon={BookmarkIcon} 
                             />      
                         </div>

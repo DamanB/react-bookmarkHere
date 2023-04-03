@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { classNames } from '@/utils';
 
 import styles from './filterIcon.module.css';
 
 const FilterIcon = ({
+    classes=[],
     selected: selectedFromProps,
     Icon,
 }) => {
@@ -13,9 +15,8 @@ const FilterIcon = ({
     }, [selectedFromProps])
 
     return (
-        <>
             <div
-                className={styles.container}
+                className={classNames([styles.container, ...classes])}
                 onClick={() => setIsSelected(!isSelected)}
             >
                 {!isSelected && (
@@ -26,7 +27,6 @@ const FilterIcon = ({
                     <Icon filled/>
                 )}
             </div>
-        </>
     );
 };
 
