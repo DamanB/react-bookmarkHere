@@ -7,7 +7,25 @@
     margin: 0 calc(var(--paddingApp) + 1px);
 }
 
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controlPanelItem {
+    margin: 0 7px 0 0;
+}
+
+.controlPanelItemContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0 12px 0 0;
+}
+
 .controlPanelSpacer {
     display: relative;
-    margin-bottom: 30px;
+    margin-bottom: 55px;
 }

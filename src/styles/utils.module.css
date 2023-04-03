@@ -5,3 +5,7 @@
 .ftDark {
     color: var(--colorDark)
 }
+
+.ftGray {
+    color: var(--colorGray)
+}

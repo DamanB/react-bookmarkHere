@@ -2,6 +2,8 @@ html {
     --colorPrimary: rgb(9, 26, 73);
     --colorLight: white;
     --colorDark: rgb(0, 0, 0);
+    --colorGray: gray;
+
     --colorBlendA: rgb(153, 35, 163);
     --colorBlendB: rgb(0, 102, 255);
     --colorBlendC: orange;
